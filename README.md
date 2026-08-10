@@ -6,7 +6,7 @@ Analysis of manufacturing line downtimes for a fictitious soft drinks manufactur
 
 **Technologies used:** Power Query, Power BI, DAX
 
-**Report file:** [Power BI report](pbix/ManufacturingLineProductivity.pbix)
+**Report file:** [Power BI report (.pbix)](pbix/ManufacturingLineProductivity.pbix)
 
 ## I. OBJECTIVES
 
@@ -23,7 +23,7 @@ The dataset consists of 4 tables:
  - `Downtime factors`
  - `Line downtime`
 
-[Source file](dataset/Manufacturing_Line_Productivity.xlsx) 
+[Source file (.xlsx)](dataset/Manufacturing_Line_Productivity.xlsx) 
 
 ### 2. DATA VALIDATION AND PREPARATION
 
