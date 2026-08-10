@@ -32,7 +32,15 @@ The Power BI report is divided into 2 sections.
 
 The first section (`Downtime Overview`) presents key measures and statistics on line productivity and downtimes.
 
+<p align="left">
+<img src="img/DowntimeOverview.jpg" alt="profit" width="600" title="downtime_overview">
+</p>
+
 The second section (`Observations and Recommendations`) summarizes the main conclusions and recommendations, and simulates the improvements expected from eliminating selected downtime factors.
+
+<p align="left">
+<img src="img/ObservationsRecommendations.jpg" alt="profit" width="600" title="observations_recommendations">
+</p>
 
 Additionally, 3 report pages were created as custom tooltips to enhance the main visualizations in `Downtime Overview`.
 
