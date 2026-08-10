@@ -3,7 +3,10 @@
 Analysis of manufacturing line downtimes for a fictitious soft drinks manufacturer.
 
 **Dataset source:** kaggle.com
+
 **Technologies used:** Power Query, Power BI, DAX
+
+**Report file:** [Power BI report](pbix/ManufacturingLineProductivity.pbix)
 
 ## I. OBJECTIVES
 
@@ -20,6 +23,8 @@ The dataset consists of 4 tables:
  - `Downtime factors`
  - `Line downtime`
 
+[Source file](dataset/Manufacturing_Line_Productivity.xlsx) 
+
 ### 2. DATA VALIDATION AND PREPARATION
 
 Power Query was used to review the data for missing inputs or incorrect formats. Additionally, the following transformations were applied:
@@ -33,13 +38,13 @@ The Power BI report is divided into 2 sections.
 The first section (`Downtime Overview`) presents key measures and statistics on line productivity and downtimes.
 
 <p align="left">
-<img src="img/DowntimeOverview.jpg" alt="downtime_overview" width="600" title="downtime_overview">
+<img src="img/DowntimeOverview.jpg" alt="downtime_overview" width="1000" title="downtime_overview">
 </p>
 
 The second section (`Observations and Recommendations`) summarizes the main conclusions and recommendations, and simulates the improvements expected from eliminating selected downtime factors.
 
 <p align="left">
-<img src="img/ObservationsRecommendations.jpg" alt="observations_recommendations" width="600" title="observations_recommendations">
+<img src="img/ObservationsRecommendations.jpg" alt="observations_recommendations" width="1000" title="observations_recommendations">
 </p>
 
 Additionally, 3 report pages were created as custom tooltips to enhance the main visualizations in `Downtime Overview`.
