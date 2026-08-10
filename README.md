@@ -30,9 +30,11 @@ Power Query was used to review the data for missing inputs or incorrect formats.
 
 The Power BI report is divided into 2 sections.
 
-The first section presents key measures and statistics on line productivity and downtimes.
+The first section (`Downtime Overview`) presents key measures and statistics on line productivity and downtimes.
 
-The second section summarizes the main conclusions and recommendations, and simulates the improvements expected from eliminating selected downtime factors.
+The second section (`Observations and Recommendations`) summarizes the main conclusions and recommendations, and simulates the improvements expected from eliminating selected downtime factors.
+
+Additionally, 3 report pages were created as custom tooltips to enhance the main visualizations in `Downtime Overview`.
 
 ### 4. KEY TAKEAWAYS
 - Almost all batches (35 out of 38) were completed with delay. 25 out of 38 batches were at least partially delayed due to operator error.
