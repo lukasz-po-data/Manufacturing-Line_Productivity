@@ -1,20 +1,20 @@
 # MANUFACTURING LINE PRODUCTIVITY
 
-Analysis of manufacturing line downtimes for fictitious soft drinks manufacturer.
+Analysis of manufacturing line downtimes for a fictitious soft drinks manufacturer.
 
 **Dataset source:** kaggle.com
-**Technologies used:** Power Query, Power BI
+**Technologies used:** Power Query, Power BI, DAX
 
 ## I. OBJECTIVES
 
  - Identify downtime patterns.
- - Come up with recommendations aiming to decrese downtime rate.
+ - Propose recommendations to reduce the downtime rate.
 
 ## II. ANALYTICAL PROCESS
 
 ### 1. DATASET
 
-Dataset consists of 4 tables:
+The dataset consists of 4 tables:
  - `Line productivity`
  - `Products`
  - `Downtime factors`
@@ -22,16 +22,17 @@ Dataset consists of 4 tables:
 
 ### 2. DATA VALIDATION AND PREPARATION
 
-Power Query was used to review the data for potentially missing inputs or incorrect format.
-On top, the following transformations have been done:
- a. Unpivoting table `Line downtime`. The table had a matrix format in the dataset. In order to enable full integration with data model, it has been converted to plain table.
- b. Adding `Batch duration` column to `Line productivity` table.
+Power Query was used to review the data for missing inputs or incorrect formats. Additionally, the following transformations were applied:
+- Unpivoted the `Line downtime` table. The table was originally in matrix format, so it was converted to a plain table to enable full integration with the data model.
+- Added a `Batch duration` column to the `Line productivity` table.
 
  ### 3. POWER BI ANALYSIS
 
-Power BI report is divided into 2 sections.
-First section describes key measures and statistics regarding line productivity and downtimes.
-The second section summarizes main conclusions, recommendations and simulates improvements expected after eliminating selected downtime factors.
+The Power BI report is divided into 2 sections.
+
+The first section presents key measures and statistics on line productivity and downtimes.
+
+The second section summarizes the main conclusions and recommendations, and simulates the improvements expected from eliminating selected downtime factors.
 
 ### 4. KEY TAKEAWAYS
 - Almost all batches (35 out of 38) were completed with delay. 25 out of 38 batches were at least partially delayed due to operator error.
